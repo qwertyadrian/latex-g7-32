@@ -39,7 +39,6 @@ rpz*.pdf
 *.bcf
 *.run.xml
 .deps
-tex/inc
 tex/_minted-*
 .idea
 utils/install.fish
