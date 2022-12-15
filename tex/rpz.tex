@@ -8,13 +8,10 @@
 
 % Настройки листингов.
 \ifPDFTeX
-\include{listings.inc}
+    \include{listings.inc}
 \else
-\usepackage{local-minted}
+    \usepackage{local-minted}
 \fi
-
-% Полезные макросы листингов.
-\include{macros.inc}
 
 % Стиль титульного листа и заголовки
 \include{00-title}
@@ -38,7 +35,7 @@
 
 %\listoftables                          % Список таблиц
 
-%\NormRefs % Нормативные ссылки 
+%\NormRefs % Нормативные ссылки
 % Команды \breakingbeforechapters и \nonbreakingbeforechapters
 % управляют разрывом страницы перед главами.
 % По-умолчанию страница разрывается.
@@ -64,7 +61,7 @@
 \include{70-bzd}
 
 \backmatter %% Здесь заканчивается нумерованная часть документа и начинаются ссылки и
-            
+
 \include{80-conclusion}%% заключение
 
 

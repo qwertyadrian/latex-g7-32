@@ -36,6 +36,8 @@ rpz*.pdf
 *.fls
 *.synctex.gz
 *.nlo
+*.bcf
+*.run.xml
 .deps
 tex/inc
 tex/_minted-*
