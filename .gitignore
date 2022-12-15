@@ -35,8 +35,10 @@ rpz*.pdf
 *.fdb_latexmk
 *.fls
 *.synctex.gz
+*.nlo
 .deps
 tex/inc
+tex/_minted-*
 .idea
 utils/install.fish
 utils/install.sh
