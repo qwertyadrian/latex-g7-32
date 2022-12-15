@@ -36,6 +36,7 @@ rpz*.pdf
 *.fls
 *.synctex.gz
 *.nlo
+*.nls
 *.bcf
 *.run.xml
 .deps
