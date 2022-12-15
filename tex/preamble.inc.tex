@@ -8,9 +8,8 @@
 
 % Добавляем гипертекстовое оглавление в PDF
 \usepackage[
-bookmarks=true, colorlinks=true, unicode=true,
-urlcolor=black,linkcolor=black, anchorcolor=black,
-citecolor=black, menucolor=black, filecolor=black,
+    bookmarks=true, colorlinks=true, unicode=true,
+    allcolors=black,
 ]{hyperref}
 
 \AfterHyperrefFix
@@ -19,19 +18,10 @@ citecolor=black, menucolor=black, filecolor=black,
 
 % Тире могут быть невидимы в Adobe Reader
 \ifInvisibleDashes
-\MakeDashesBold
+    \MakeDashesBold
 \fi
 
-\usepackage{graphicx}   % Пакет для включения рисунков
-
-% С такими оно полями оно работает по-умолчанию:
-% \RequirePackage[left=20mm,right=10mm,top=20mm,bottom=20mm,headsep=0pt,includefoot]{geometry}
-% Если вас тошнит от поля в 10мм --- увеличивайте до 20-ти, ну и про переплёт не забывайте:
-%\geometry{right=20mm}
-%\geometry{left=30mm}
-%\geometry{bottom=20mm}
-%\geometry{ignorefoot}% считать от нижней границы текста
-
+\usepackage{graphicx}
 
 % Пакет Tikz
 \usepackage{tikz}
@@ -46,8 +36,8 @@ citecolor=black, menucolor=black, filecolor=black,
 % itemize внутри tabular
 \usepackage{paralist,array}
 
-%\setlength{\parskip}{1ex plus0.5ex minus0.5ex} % разрыв между абзацами
-\setlength{\parskip}{1ex} % разрыв между абзацами
+\setlength{\parskip}{0ex} % разрыв между абзацами
+% Пакет для генерации случайного текста
 \usepackage{blindtext}
 
 % Центрирование подписей к плавающим окружениям
