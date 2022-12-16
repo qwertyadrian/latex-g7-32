@@ -552,7 +552,7 @@
     \setlength{\listparindent}{\parindent}%   Красная строка
     \setlength{\parsep}{\parskip}%                 расстояние между абзацами внутри пункта
     \setlength{\leftmargin}{0mm}% левый отступ до текста
-    \setlength{\itemindent}{\GostItemIndent+\GostItemGap}%             дополнительный левый отступ первой строчки
+    \setlength{\itemindent}{\GostItemIndent}%             дополнительный левый отступ первой строчки
     \setlength{\labelsep}{1.5\GostItemGap}%     от метки до текста
 }
 
@@ -562,7 +562,7 @@
     \setlength{\partopsep}{\parskip}%              дополнительный отступ,  если начали абзац
     \setlength{\listparindent}{1.5em}%   Красная строка
     \setlength{\parsep}{\parskip}%                 расстояние между абзацами внутри пункта
-    \setlength{\leftmargin}{\GostItemNestedIndent+\GostItemGap}% левый отступ до текста
+    \setlength{\leftmargin}{\GostItemNestedIndent}% левый отступ до текста
     \setlength{\itemindent}{0mm}%             дополнительный левый отступ первой строчки
     \setlength{\labelsep}{1.5\GostItemGap}%     от метки до текста
 }
@@ -580,7 +580,7 @@
 \setlength\leftmarginii{0mm}
 \setlength\GostItemIndent{1.5\parindent}
 \setlength\GostItemNestedIndent{1.5\parindent}
-\addtolength\GostItemNestedIndent{0mm}
+\addtolength\GostItemNestedIndent{1mm}
 
 %  ненумерованные перечисления
 \newcommand{\labelitemi}{\cdash---}

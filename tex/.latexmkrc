@@ -1,6 +1,6 @@
 $pdflatex = "xelatex -synctex=1 -interaction=nonstopmode -shell-escape %O %S";
 $pdf_mode = 1;
-$postscript_mode = $dvi_mode = 0; 
+$postscript_mode = $dvi_mode = 0;
 $bibtex_use = 2;
 @default_files = ("rpz");
 
